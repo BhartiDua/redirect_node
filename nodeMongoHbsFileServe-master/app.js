@@ -18,7 +18,7 @@ http.createServer(async function (req, res) {
             if (err) throw err;
             console.log('Data successfully saved.');
         });
-        res.redirect('./html/helloUser.html');
+        res.redirect('/helloUser');
     }
     
     if(req.url==='/helloUser'){
